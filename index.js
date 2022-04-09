@@ -10,6 +10,11 @@ let result2;
       return Math.floor((Math.random() * (8)));
     }
     }
+
+    // Group
+    const groupA = [
+      {name:"Katar", rank:1, points:0, goalsFor:0, golasagains:0,goalsDifference:0, win:0, draw:0, lost:0, }
+    ]
 };
 
 main();
