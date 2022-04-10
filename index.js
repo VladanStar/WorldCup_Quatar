@@ -379,49 +379,10 @@ const main = () => {
   ];
 
   let groups = [];
-groups.push(groupA,groupB,groupC,groupD,groupE,groupF,groupG,groupH);
+  groups.push(groupA, groupB, groupC, groupD, groupE, groupF, groupG, groupH);
 
-  let groupTable = function(group) {
-    for (let country in group){
-      let  {
-        name: name,
-        teamRank: rank,
-        points:points,
-        goalsFor: goalsFor,
-        goalsAgainst:goalsAgainst ,
-        goalsDifference: goalsDifference,
-        win:win,
-        draw: draw,
-        lost:lost
-      }  = country;
-      console.table(
-        `${name} (${rank})  ${win} ${draw} ${lost} ${goalsFor}:${goalsAgainst} ${goalsDifference}${points}`
-
-      )
-
-  
-    }
-    console.log(groupTable(groupA))
-  
-
-  }
-};
+}
 
 main();
-
-// var teams = ["a", "b", "c", "d"]
-
-// function possibleMatches(teams) {
-//   for (var firstTeam = 0; firstTeam < teams.length; firstTeam++) {
-//     for (var secondTeam = firstTeam + 1; secondTeam < teams.length; secondTeam++) {
-//       console.log( teams[firstTeam],":", teams[secondTeam])
-//     }
-//   }
-
-// }
-  
-// possibleMatches(teams)
-
-
 
 
