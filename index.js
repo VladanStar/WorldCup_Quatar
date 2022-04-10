@@ -381,6 +381,17 @@ const main = () => {
   let groups = [];
   groups.push(groupA, groupB, groupC, groupD, groupE, groupF, groupG, groupH);
 
+
+
+  let matches =[];
+  for(let i =0;i<=2;i++){
+    for(let j =3;j>0;i--){
+      if(i !=j && matches.length < 6){
+        matches.push[i,j];
+      }
+    }
+  }
+  console.log(matches);
 }
 
 main();
